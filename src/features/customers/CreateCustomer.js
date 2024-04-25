@@ -9,6 +9,8 @@ function Customer() {
 
   function handleClick() {
     dispatch(createCustomer(fullName, nationalId));
+    setFullName("");
+    setNationalId("");
   }
 
   return (
